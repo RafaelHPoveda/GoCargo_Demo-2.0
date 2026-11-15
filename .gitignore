@@ -1,0 +1,44 @@
+# Configuracion local y secretos (se versiona solo el ejemplo)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python y herramientas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Datos locales y archivos generados
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.log
+media/
+staticfiles/
+build/
+dist/
+*.egg-info/
+
+# Editor, sistema e instrucciones locales
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+AGENTS.md
+
+# Salidas regenerables; la documentacion propia SI se versiona
+.docs/generated/
